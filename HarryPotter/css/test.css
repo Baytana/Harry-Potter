@@ -1,0 +1,151 @@
+/*QUIZ*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.timer{
+    margin-top: 100px;
+    padding: 0 120px;
+    text-align: right;
+    font-size: 24px;
+}
+.btn-start{
+    margin: 50px 600px 20px;
+    display: block;
+}
+.btn-start--hidden{
+    display: none;
+}
+.quiz{
+    margin: 0 auto 100px auto;
+    color: white;
+}
+.name-quiz h1{
+    text-align: center;
+    padding-top: 160px;
+    font-size: 50px;
+}
+.quiz .front-line{
+    padding: 20px 200px;
+    margin-top: 20px;
+    background-color: #323233;
+}
+.quiz-questions,.quiz-indicator{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.quiz-questions-item__question,
+.quiz-results-item__question{
+    font-size: 28px;
+    margin: 20px auto;        }
+.quiz-questions-item__answers,
+.quiz-results-item__answers{
+    font-size: 28px;
+    margin: 0;
+    padding: 0 50px;
+    list-style: none;
+}
+
+.quiz-indicator{}
+
+.quiz-results{
+    /*display: none;*/
+}
+.btn-next{
+
+}
+.btn-restart{
+    margin-top: 30px;
+    display: none;
+}
+
+.questions--hidden,
+.indicator--hidden,
+.btn-next--hidden{
+    display: none;
+}
+
+.result--visible,
+.btn-restart--visible {
+    display: block;
+}
+.answer--invalid{
+    color: red;
+}
+.answer--valid{
+    color: forestgreen;
+}
+.answer-input{
+    width: 30px;
+    height: 20px;
+}
+
+
+/*-------STOP WATCH------ */
+
+.time {
+    color: white;
+    display: flex;
+    justify-content: right;
+    font-size: 40px;
+    height: 30px;
+    width: 100%;
+    /*border-bottom: 1px solid var(--orange);*/
+    margin-top: 40px;
+}
+
+.time_block {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
+
+.stopwatch {
+    padding: 100px 0;
+    background: black;
+}
+
+.time_buttons {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* GMAIL BLOCK */
+
+.gmail_block {
+    background: black;
+    padding: 100px 0;
+    display: flex;
+}
+
+.inner_gmail_block {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid var(--orange);
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+}
+.form_gmail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_gmail button {
+    width: 100%;
+    margin: 20px 0;
+}
+/* PHONE CHECKER */
+
+.form_phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_phone button {
+    width: 100%;
+    margin: 20px 0;
+}

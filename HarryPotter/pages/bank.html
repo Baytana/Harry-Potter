@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/bank.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="../index.html">
+                    <div class="logotype">
+                        <img class="harry-img" src="../img/HarryPotter.png">
+                    </div>
+                </a>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="../pages/bank.html">Bank </a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/sport.html">Sport</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/film.html">Film</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/test.html">test</a>
+                    </li>
+                </ul>
+                <button class="btn" id="btn-get">ticket</button>
+            </div>
+        </div>
+    </div>
+    <div class="bank_logo"></div>
+    <div class="inner_bank">
+        <div class="container">
+            <h1>Гринготтс</h1>
+            <div class="front-line">
+                <div class="text">Хронология</div>
+                <p>Волшебный банк «Гринготтс» — банк, основанный гоблином Гринготтом в 1474 году, в котором волшебники хранят свои сбережения. Это единственный банк в мире волшебников, и других не существует.
+                    <br>
+                    <br>
+                    - 1865 год: Указ Министерства магии, передающий гоблинам полный контроль над банком Гринготтс.
+                    <br>
+                    <br>
+                    - 1991 год: Взлом хорошо защищённой банковской ячейки 713 с целью похищения философского камня.
+                    <br>
+                    <br>
+                    - 1997 год: Министерство магии, по приказу Волан-де-Морта, контролирует банк волшебников.
+                    <br>
+                    <br>
+                    - 1998 год: Успешное ограбление осуществлённое Гарри Поттером, Гермионой, Роном и гоблином Крюкохватом  .  Из сейфа Беллатрисы Лейстрейндж они похитили ещё один крестраж Волан-де-Морта.
+                </p>
+            </div>
+            <div class="front-line">
+                <div class="text">Здание Гринготтса весьма впечатляет:</div>
+                <img src="../img/bank-front.webp" class="front_img">
+                <p>Величественное белоснежное здание банка Гринготтс и ведущие к главному входу белые мраморные ступени должны вызывать невольное восхищение у посетителей. У дверей стоит гоблин-привратник, встречающий поклоном клиентов.</p>
+            </div>
+            <div class="front-line">
+                <div class="text">Гоблины</div>
+                <img src="../img/bank-goblin.jpg" class="front_img">
+                <p>Главный персонал волшебного банка — гоблины, производящие все необходимые банковские операции, а также его охрану и охрану, собственно, самих банковских сейфов. </p>
+            </div>
+
+            <div class="front-line">
+                <div class="text">студенты</div>
+                <img src="../img/bank-harry-hagrid.webp" class="front_img">
+                <p>Банк находится на углу Косого и Лютного переулков в Лондоне. Прежде чем отправиться за покупками, студенты из семей волшебников Хогвартса снимают деньги со своих счетов в банке. Здесь также можно обменять магловские деньги на волшебные.</p>
+            </div>
+
+            <div class="front-line">
+                <div class="text">Волшебные деньги</div>
+                <p>В мире Гарри Поттера существует собственная магическая валюта, называемая "галлеон" (Galleon). Галлеон — это золотая монета, используемая волшебным сообществом. Вместе с галлеонами существуют также серебряные сикля (Sickle) и медные кнуты (Knut), образуя триединую систему валюты. Такой набор монет используется в волшебном мире для проведения различных транзакций и покупок<br>
+                    <br>1 галлеон = 17 сиклей<br>
+                    1 сикль = 29 кнутов<br><br><br>А теперь проведем сравнение с реальными валютами
+                </p>
+            </div>
+        </div>
+        <div class="converter">
+            <div class="container">
+                <h3>CONVERTER</h3>
+                <div class="inner_converter">
+                    <div class="som">
+                        <label for="som">Som</label>
+                        <input type="number" id="som">
+                    </div>
+                    <div class="usd">
+                        <label for="usd">Usd</label>
+                        <input type="number" id="usd">
+                    </div>
+                    <div class="galleon">
+                        <label for="galleon">Galleon</label>
+                        <input type="number" id="galleon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <a href="../pages/instagram.html" target="_blank">
+                <div class="inner_footer">
+                    <h2>Следи за своим кумиром</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="modal">
+    <div class="modal_dialog">
+        <div class="modal_content">
+            <form action="#">
+                <div class="modal_close">&times;</div>
+                <div class="modal_title">Погрузитесь в атмосферу Хогвартса на закрытом концерте</div>
+                <input required placeholder="Ваше имя" name="name" type="text" class="modal_input">
+                <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal_input">
+                <a href="https://t.me/Baytana"><button class="btn">БИЛЕТЫ</button></a>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="../js/bank.js"></script>
+<script src="../js/modal.js"></script>
+</html>

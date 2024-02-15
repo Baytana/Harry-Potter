@@ -1,0 +1,194 @@
+[
+  {
+    "question" : "Сколько раз Малфой пытался убить Альбуса Дамблдора?",
+    "answers": [
+      {
+        "id": "1",
+        "value": "3",
+        "correct": true
+      },
+      {
+        "id": "2",
+        "value": "1",
+        "correct": false
+      },
+      {
+        "id": "3",
+        "value": "2",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "question" : "В каких животных превращались Мародёры?",
+    "answers": [
+      {
+        "id": "4",
+        "value": "Олень, кошка, медведь, волк",
+        "correct": false
+      },
+      {
+        "id":"5",
+        "value": "Олень, пёс, крыса, медведь",
+        "correct": false
+      },
+      {
+        "id": "6",
+        "value": "Крыса, пёс, олень, волк",
+        "correct": true
+      }
+    ]
+  },{
+  "question" : "Как зовут капитана Гриффиндорской сборной по Квиддичу?",
+  "answers": [
+    {
+      "id": "7",
+      "value": "Оливер Вуд",
+      "correct": true
+    },
+    {
+      "id": "7",
+      "value": "Джордж Уизли",
+      "correct": false
+    },
+    {
+      "id": "8",
+      "value": "Маркус Флинт",
+      "correct": false
+    }
+  ]
+},{
+  "question" : "Кем был Гарри Поттер в Гриффиндорской сборной по Квиддичу?",
+  "answers": [
+    {
+      "id": "9",
+      "value": "Загонщик",
+      "correct": false
+    },
+    {
+      "id": "10",
+      "value": "Ловец",
+      "correct": true
+    },
+    {
+      "id": "11",
+      "value": "Охотник",
+      "correct": false
+    }
+  ]
+},{
+  "question" : "Кто из Мародёров оказался предателем?",
+  "answers": [
+    {
+      "id": "12",
+      "value": "Джеймс Поттер",
+      "correct": false
+    },
+    {
+      "id": "13",
+      "value": "Римус Люпин",
+      "correct": false
+    },
+    {
+      "id": "14",
+      "value": "Питтер Петтигрю",
+      "correct": true
+    }
+  ]
+},{
+  "question" : "Кто был чемпионом от школы Дурмстранг?",
+  "answers": [
+    {
+      "id": "15",
+      "value": "Виктор Крам",
+      "correct": true
+    },
+    {
+      "id": "16",
+      "value": "Седрик Диггори",
+      "correct": false
+    },
+    {
+      "id": "17",
+      "value": "Флёр ДеЛакур",
+      "correct": false
+    }
+  ]
+},{
+  "question" : "Какое заклинание было первым, что услышал Гарри Поттер?",
+  "answers": [
+    {
+      "id": "18",
+      "value": "Репаро",
+      "correct": true
+    },
+    {
+      "id": "19",
+      "value": "Вингардиум Левиоса",
+      "correct": false
+    },
+    {
+      "id": "20",
+      "value": "Акцио",
+      "correct": false
+    }
+  ]
+},{
+  "question" : "От чего умерла Плакса Миртл?",
+  "answers": [
+    {
+      "id": "21",
+      "value": "От удара копытом Кентавра",
+      "correct": false
+    },
+    {
+      "id": "22",
+      "value": "От взгляда Василиска",
+      "correct": true
+    },
+    {
+      "id": "23",
+      "value": "От укуса паука Арагога",
+      "correct": false
+    }
+  ]
+},{
+  "question" : "Сколько крестражей создал Том Рэддл?",
+  "answers": [
+    {
+      "id": "24",
+      "value": "9",
+      "correct": false
+    },
+    {
+      "id": "25",
+      "value": "5",
+      "correct": false
+    },
+    {
+      "id": "26",
+      "value":"7",
+      "correct": true
+    }
+  ]
+},{
+  "question" : "Что из перечисленного не является Даром Смерти?",
+  "answers": [
+    {
+      "id": "27",
+      "value": "Бузинная Палочка",
+      "correct": false
+    },
+    {
+      "id":"28",
+      "value": "Шутливый котёл",
+      "correct": true
+    },
+    {
+      "id": "29",
+      "value":"Воскрешающий Камень",
+      "correct": false
+    }
+  ]
+}
+]

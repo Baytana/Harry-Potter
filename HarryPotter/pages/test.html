@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TEST</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../css/test.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <div class="container">
+            <div class="inner_header">
+                <a href="../index.html">
+                    <div class="logotype">
+                        <img class="harry-img" src="../img/HarryPotter.png">
+                    </div>
+                </a>
+                <ul class="menu">
+                    <li class="menu_link">
+                        <a href="../pages/bank.html">Bank </a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/sport.html">Sport</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/film.html">Film</a>
+                    </li>
+                    <li class="menu_link">
+                        <a href="../pages/test.html">test</a>
+                    </li>
+                </ul>
+                <button class="btn" id="btn-get">ticket</button>
+            </div>
+        </div>
+    </div>
+    <div class="name-quiz">
+        <div class="container">
+            <h1>Тест на знание Вселенной<br> Гарри Поттера</h1>
+        </div>
+    </div>
+
+    <button class="btn btn-start" id="btn-start">Старт</button>
+    <div class="timer" id="timer"></div>
+
+<!--    <div class="time">-->
+<!--        <div class="time_block">-->
+<!--            <div class="interval" id="seconds">00:00</div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <div class="quiz" id="quiz">
+        <div class="container">
+            <div class="front-line">
+                <div class="quiz-questions" id="questions" data-current-step='0'></div>
+
+                <div class="quiz-indicator" id="indicator">1/10</div>
+
+                <div class="quiz-results" id="results"></div>
+
+                <div class="quiz-controls">
+                    <button class="btn btn-next" id="btn-next" disabled>Далее</button>
+                    <button class="btn btn-restart" id="btn-restart">С начала</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gmail_block">
+        <div class="container">
+            <h3>Проверь, нет ли ошибок в данных</h3>
+            <div class="inner_gmail_block">
+                <div class="form_gmail">
+                    <label for="gmail_input">Gmail Account</label>
+                    <input type="text" id="gmail_input" placeholder="your gmail">
+                    <button class="btn" id="gmail_button">Check gmail</button>
+                    <span class="checker" id="gmail_result"></span>
+                </div>
+                <div class="form_phone">
+                    <label for="phone_input">Phone Number</label>
+                    <input type="text" id="phone_input" placeholder="+996 XXX XX-XX-XX">
+                    <button class="btn" id="phone_button">Check number</button>
+                    <span class="checker" id="phone_result"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <a href="../pages/instagram.html" target="_blank">
+            <div class="inner_footer">
+                <h2>Следи за своим кумиром</h2>
+            </div>
+        </a>
+    </div>
+</div>
+</div>
+
+<div class="modal">
+    <div class="modal_dialog">
+        <div class="modal_content">
+            <form action="#">
+                <div class="modal_close">&times;</div>
+                <div class="modal_title">Погрузитесь в атмосферу Хогвартса на закрытом концерте</div>
+                <input required placeholder="Ваше имя" name="name" type="text" class="modal_input">
+                <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal_input">
+                <a href="https://t.me/Baytana"><button class="btn">ЗА БИЛЕТАМИ</button></a>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="../js/test.js"></script>
+<script src="../js/modal.js"></script>
+</html>
